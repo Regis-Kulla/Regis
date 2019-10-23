@@ -28,6 +28,34 @@ public class OddOrEven {
 
         //TODO YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!
 
+        long resultata = a % 2;
+        long resultatb = b % 2;
+        long resultatc = c % 2;
+
+        System.out.println("Uträkningen visar om talen 912642198, 1985612321 eller 73 är jämna eller udda tal.");
+        System.out.println("Om resultatet blir 0 så är talet jämnt och om resultatet är 1 så är talet ojämnt.");
+        System.out.println("");
+        System.out.println("Talet " + a + " visar: " + resultata + " (0=jämnt, 1=ojämnt)");
+        System.out.println("");
+        System.out.println("Talet " + b + " visar: " + resultatb + " (0=jämnt, 1=ojämnt)");
+        System.out.println("");
+        System.out.println("Talet " + c + " visar: " + resultatc + " (0=jämnt, 1=ojämnt)");
+
+        int resultat = 9 % 5;
+        boolean skrivUtMig = (resultat >= 4);
+        System.out.println("Uträkningen visar att resultatet är större än eller lika med fyra, detta är: " + skrivUtMig);
+
+        int minSiffra = 3;
+        System.out.println(minSiffra);
+        minSiffra++;
+        System.out.println(minSiffra);
+        minSiffra--;
+        System.out.println(minSiffra);
+        minSiffra *= 3;
+        System.out.println(minSiffra);
+
+
+
 
         //TODO BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!
         /**

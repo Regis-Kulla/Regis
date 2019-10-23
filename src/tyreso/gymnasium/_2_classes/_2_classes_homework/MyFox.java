@@ -1,18 +1,17 @@
 package tyreso.gymnasium._2_classes._2_classes_homework;
 
-import java.time.LocalDate;
-import java.util.Date;
-
-public class Fox {
+public class MyFox {
 
     //Variables, initializing directly after declaration ( BAD IDEA(tm) )
-    String species = "Fox";
+    String species = "Rajang";
 
     //Constructor omitted, using default Java-constructor
 
     //Methods
-    public void sound() {
-        System.out.println("???");
+    public String sound() {
+
+        System.out.println("Kirin is poopy");
+        return"This is the returned String";
     }
 
     //TODO !!!YOUR CODE HERE!!!   !!!YOUR CODE HERE!!!   !!!YOUR CODE HERE!!!   !!!YOUR CODE HERE!!!
